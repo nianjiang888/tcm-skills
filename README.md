@@ -44,17 +44,6 @@ git clone <仓库地址>
 python <技能目录>/scripts/<引擎>.py --help
 ```
 
-## 从 GitHub 导入到 SkillHub
-
-每个技能独立目录，目录根即 `SKILL.md`，不含二进制文件。在 SkillHub 发布页选「从 GitHub 导入」，绑定账号后会自动扫出候选技能。
-
-**注意：平台单次最多导入 5 个技能，9 个需要分 2 批。**
-
-| 批次 | 技能 |
-|---|---|
-| 第 1 批 | `huatuo-1.0.0`、`self-study-tcm-1.0.0`、`tcm-baijiu-1.0.0`、`tcm-baitang-1.0.0`、`tcm-baixing-1.0.0` |
-| 第 2 批 | `tcm-baizhou-1.0.0`、`tcm-diagnostic-thinking`、`tcm-syndrome-lookup-1.0.0`、`tcm-wenda-1.0.0` |
-
 ## 许可
 
 MIT
