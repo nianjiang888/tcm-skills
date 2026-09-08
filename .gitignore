@@ -1,0 +1,22 @@
+# 发布包（需要时用 _tools/pack_skill.py 重建，不进仓库）
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 临时与测试残留
+_ztmp/
+_tmp/
+tmp/
+*.log
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.idea/
+.vscode/
+*.swp

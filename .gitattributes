@@ -1,0 +1,16 @@
+# 锁死 LF：Windows 默认会把 LF 转成 CRLF，
+# 而技能引擎用 newline="\n" 写报告，换行一变「逐字节复现」就废了。
+* text=auto eol=lf
+
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+
+# 二进制不参与换行转换
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
